@@ -7,6 +7,11 @@ grid runs straight through the joins. Each cut gets a 5 ms fade so nothing
 clicks; the end fades out.
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import json
 import subprocess
 import sys
